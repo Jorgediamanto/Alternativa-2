@@ -113,16 +113,6 @@ def desencriptar(cipher, key):
 			row -= 1
 	return("".join(result))
 
-# Driver code
-if __name__ == "__main__":
-	print(encryptRailFence("attack at once", 2))
-	print(encryptRailFence("GeeksforGeeks ", 3))
-	print(encryptRailFence("defend the east wall", 3))
-	
-	# Now decryption of the
-	# same cipher-text
-	print(decryptRailFence("GsGsekfrek eoe", 3))
-	print(decryptRailFence("atc toctaka ne", 2))
-	print(decryptRailFence("dnhaweedtees alf tl", 3))
+
 
 
