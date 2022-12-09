@@ -10,6 +10,17 @@ def fibonacci(n):
 
 
 # Calcula el millonésimo número en la recurrencia de Fibonacci
-millonth_number = fibonacci(1000000)
+
+
+n = input("introduzca valor de secuencia fibonacci")
+
+
+if n>2000000:
+    raise ValueError("Numero demasiado grande ordenador explota")
+
+millonth_number = fibonacci(n)
+
+
+
 # Imprime el resultado
 print(millonth_number)  # Imprime: 8247650592082470666723170306785496252186258551345437492922123134388955774976000000000000000
